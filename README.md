@@ -3,7 +3,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/IamBisrutPyne/Java-Programs.svg)](https://github.com/IamBisrutPyne/Java-Programs/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/IamBisrutPyne/Java-Programs.svg)](https://github.com/IamBisrutPyne/Java-Programs/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/IamBisrutPyne/Java-Programs.svg)](https://github.com/IamBisrutPyne/Java-Programs/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: CC0 1.0](https://img.shields.io/badge/License-CC0_1.0-blue)](https://github.com/IamBisrutPyne/Java-Programs/blob/main/LICENSE)
 [![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-orange.svg)](https://hacktoberfest.com/)
 
 ---

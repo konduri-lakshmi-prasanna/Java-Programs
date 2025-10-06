@@ -1,11 +1,11 @@
 /**
- * Program Title: [Concise and Descriptive Title]
- * Author: [Your Name or GitHub Handle]
- * Date: [Date of Submission, YYYY-MM-DD]
+ * Program Title: Fibonacci Sequence Generator
+ * Author: Kes104 
+ * Date: 2025-10-06
  *
- * Description: [Detailed explanation of what the program does and how it works.]
- * Time Complexity: [O(n), O(log n), O(1), etc., for algorithms]
- * Space Complexity: [O(n), O(1), etc., for memory usage]
+ * Description: Takes input from the user and generates the Fibonacci sequence up to the specified number of terms.
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 import java.util.Scanner;
 

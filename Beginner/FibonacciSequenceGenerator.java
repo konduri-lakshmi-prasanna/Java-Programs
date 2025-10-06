@@ -9,7 +9,7 @@
  */
 import java.util.Scanner;
 
-public class FibonacciSequenceGenerator{
+public class FibonacciSequenceGenerator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Create a Scanner object for user input
         System.out.print("Enter the number of terms in the Fibonacci sequence: ");

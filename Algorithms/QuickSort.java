@@ -1,16 +1,4 @@
-package Algorithms;
 
-/**
- * QuickSort Algorithm Implementation.
- * 
- * Quick Sort is a divide-and-conquer sorting algorithm.
- * 
- * Average Time Complexity: O(n log n)
- * Worst-Case Time Complexity: O(n^2) (occurs when pivot selection is poor, e.g., already sorted array)
- * Space Complexity: O(log n) due to recursive stack calls
- * 
- * @author Manish
- */
 public class QuickSort {
 
     /**

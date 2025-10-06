@@ -1,3 +1,12 @@
+/**
+ * Program Title: [Concise and Descriptive Title]
+ * Author: [Your Name or GitHub Handle]
+ * Date: [Date of Submission, YYYY-MM-DD]
+ *
+ * Description: [Detailed explanation of what the program does and how it works.]
+ * Time Complexity: [O(n), O(log n), O(1), etc., for algorithms]
+ * Space Complexity: [O(n), O(1), etc., for memory usage]
+ */
 import java.util.Scanner;
 
 public class FibonacciSequenceGenerator{

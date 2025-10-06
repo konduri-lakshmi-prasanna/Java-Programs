@@ -1,12 +1,12 @@
 # ☕ Java-Programs | Hacktoberfest 2025 🎉
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Hacktoberfest 2025 stats](https://img.shields.io/github/hacktoberfest/2025/IamBisrutPyne/Java-Programs?label=Hacktoberfest+2025)](https://github.com/IamBisrutPyne/Java-Programs/pulls?q=is%3Apr+is%3Amerged+created%3A2025-10-01..2025-10-31)
 [![GitHub contributors](https://img.shields.io/github/contributors/IamBisrutPyne/Java-Programs.svg)](https://github.com/IamBisrutPyne/Java-Programs/graphs/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/IamBisrutPyne/Java-Programs.svg)](https://github.com/IamBisrutPyne/Java-Programs/issues)
 [![License: CC0 1.0](https://img.shields.io/badge/License-CC0_1.0-blue)](https://github.com/IamBisrutPyne/Java-Programs/blob/main/LICENSE)
 
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img width="400" height="300" alt="Hacktoberfest-Logo" src="https://github.com/user-attachments/assets/5f9a47d2-e571-485a-9b69-25d6e9f8ddd9" />
 
@@ -26,7 +26,7 @@ Dive into the code, fix bugs, add new features, or contribute your own unique Ja
 * **Object-Oriented Programming (OOP) Examples:** Clear demonstrations of Java OOP principles.
 * **Utility Snippets:** Useful Java code for common tasks.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🚀 Getting Started
 
@@ -54,7 +54,7 @@ Ready to contribute? It's simple! Follow these steps to get your first contribut
 
 > **❗ Important:** Please ensure your code follows our [Contributing Guidelines](#📜-contributing-guidelines)!
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💻 Sneak Peek: Code Examples
 

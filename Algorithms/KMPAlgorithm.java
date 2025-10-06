@@ -1,5 +1,7 @@
 // KMP Algorithm in Java
 // ------------------------------------------------------
+// Author: Jatin Vishwakarma
+// Description: Implementation of the Knuth–Morris–Pratt (KMP)
 // Pattern Searching Algorithm in Java.
 // This algorithm efficiently finds all occurrences of a pattern
 // in a given text with O(n + m) time complexity.

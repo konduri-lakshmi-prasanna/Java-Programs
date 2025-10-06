@@ -49,6 +49,11 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] sampleArray = { 10, 7, 8, 9, 1, 5 };
 
+        if (sampleArray == null || sampleArray.length == 0) {
+            System.out.println("Array is empty or null.");
+            return;
+        }
+        
         System.out.println("Original Array:");
         for (int num : sampleArray) {
             System.out.print(num + " ");

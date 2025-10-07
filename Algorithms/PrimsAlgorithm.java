@@ -1,4 +1,14 @@
-// Prim's Algorithm in Java using a PriorityQueue (Min-Heap)
+/**
+ * Program Title: Prim's Algorithm for Minimum Spanning Tree (MST)
+ * Author: [@chaanakyaaM]
+ * Date: [2025-10-07]
+ *
+ * Description: Finds the Minimum Spanning Tree (MST) of a connected, undirected
+ * weighted graph using a Priority Queue (Min-Heap) to efficiently select the
+ * next cheapest edge.
+ * Time Complexity: O(E log V) (where E is edges, V is vertices)
+ * Space Complexity: O(V + E)
+ */
 
 import java.util.*;
 

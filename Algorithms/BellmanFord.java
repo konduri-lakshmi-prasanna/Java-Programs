@@ -1,3 +1,16 @@
+/**
+ * Program Title: Bellman-Ford Shortest Path Algorithm
+ * Author: [chaanakyaaM]
+ * Date: 2025-10-08
+ *
+ * Description: Computes the shortest path from a single source vertex to all other
+ * vertices in a weighted, directed graph. It handles graphs with negative edge
+ * weights but is crucial for detecting and reporting negative cycles.
+ *
+ * Time Complexity: O(V * E) (Vertices * Edges)
+ * Space Complexity: O(V + E) (for the distance array and edge list)
+ */
+
 import java.util.Arrays;
 
 public class BellmanFord {

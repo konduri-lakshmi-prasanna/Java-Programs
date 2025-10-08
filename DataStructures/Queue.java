@@ -1,3 +1,16 @@
+/**
+ * Program Title: Queue (Linked List Implementation)
+ * Author: [Ahad-23]
+ * Date: 2025-10-08
+ *
+ * Description: Implements a generic Queue data structure using a custom
+ * Singly Linked List. Operations (enqueue, dequeue, peek) are designed
+ * to adhere to the FIFO (First-In, First-Out) principle.
+ *
+ * Time Complexity: O(1) for all main operations (enqueue, dequeue, peek).
+ * Space Complexity: O(N) where N is the number of elements stored.
+ */
+
 public class Queue<T> {
     // Node class for custom singly linked list
     private static class Node<T> {

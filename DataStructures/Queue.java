@@ -47,7 +47,7 @@ public class Queue<T> {
 
     public T dequeue() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty. Cannot dequeue.");
+            throw new NoSuchElementException("Queue is empty. Cannot dequeue.");
         }
         T value = front.data;
         front = front.next;
@@ -60,7 +60,7 @@ public class Queue<T> {
 
     public T peek() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty. Cannot peek.");
+            throw new NoSuchElementException("Queue is empty. Cannot dequeue.");
         }
         return front.data;
     }

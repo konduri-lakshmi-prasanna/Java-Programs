@@ -1,3 +1,18 @@
+// Metadata Header (MANDATORY)
+// -----------------------------
+// Program Title: Sudoku Solver (Backtracking)
+// Author: [Madipadige-ManishKumar]
+// Date: 2025-10-09
+//
+// Description: Solves a standard 9x9 Sudoku puzzle using the Backtracking algorithm.
+//
+// Language: Java
+//
+// Time Complexity (Practical): O(1)
+// Time Complexity (Worst-Case): O(9^N), where N is the number of empty cells.
+// Space Complexity: O(1).
+// -----------------------------
+
 public class SudokuSolver {
 
     private static final int SIZE = 9; // Standard Sudoku size

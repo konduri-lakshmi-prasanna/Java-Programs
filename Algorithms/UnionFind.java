@@ -1,3 +1,18 @@
+// Metadata Header (MANDATORY)
+// -----------------------------
+// Program Title: Union-Find (Disjoint Set Union)
+// Author: [KotlinKing]
+// Date: 2025-10-10
+//
+// Description: Implements the Disjoint Set Union data structure, or Union-Find.
+// It includes the two essential optimizations: Path Compression and Union by Rank.
+//
+// Language: Java
+//
+// Time Complexity: O(α(n)) for find/union.
+// Space Complexity: O(n).
+// -----------------------------
+
 public class UnionFind {
     private int[] parent;
     private int[] rank;

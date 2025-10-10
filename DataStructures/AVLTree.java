@@ -1,7 +1,33 @@
-/**
-    * AVL Tree Implementation in Java
-    * Static Input
- */
+// Metadata Header (MANDATORY)
+// -----------------------------
+// Program Title: AVL Tree Implementation
+// Author: [Madipadige-ManishKumar]
+// Date: 2025-10-10
+//
+// Description: Implements the AVL Self-Balancing Binary Search Tree.
+//
+// Language: Java
+//
+// Time Complexity: O(log n).
+// Space Complexity: O(n).
+// -----------------------------
+
+class AVLTree {
+
+    // Node class - Declared as private for better encapsulation
+    private class Node {
+        int key, height;
+        Node left, right;
+
+        Node(int data) {
+            key = data;
+            height = 1;
+        }
+    }
+
+    private Node root; // Should be private
+
+    // ... (rest of the excellent code follows)
 
 class AVLTree {
 

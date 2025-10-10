@@ -1,3 +1,16 @@
+/**
+ * Program Title: Rock-Paper-Scissors Game
+ * Author: [VinayKumarBM]
+ * Date: 2025-10-10
+ *
+ * Description: Implements the classic Rock-Paper-Scissors game against a computer opponent.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(1).
+ * Space Complexity: O(1).
+ */
+
 import java.util.*;
 
 public class RockPaperScissors {

@@ -33,7 +33,7 @@ public class LinearSearchRecursion{
         }
     }
 
-// Find the Key/element
+// Find the Key/Element
     public static int linearSearch (int[] arr, int ind, int key) {
         if (arr.length == ind) {
             return -1;

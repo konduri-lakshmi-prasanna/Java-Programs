@@ -1,6 +1,11 @@
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * This program demonstrates the implementation of a linear search algorithm using recursion.
+ * It searches for a given key within an array of integers.
+ */
+
 public class LinearSearchRecursion{
 
 	public static void main(String[] args) {

@@ -42,6 +42,21 @@ class Node implements Comparable<Node> {
     }
 }
 
+/**
+ * Implements the A* (A-star) search algorithm to find the shortest path in a 2D grid
+ * * ---
+ * Complexity
+ * ---
+ * Time Complexity: O(E log V)
+ * 1. Where V is the number of vertices (nodes/cells) and E is the number of edges
+ * 2. The log V factor comes from the PriorityQueue operations (add/poll).
+ * 3. On a standard grid, this simplifies to O(N log N), where N is the total number of cells
+ *
+ * Space Complexity: O(V)
+ * The space is required to store the nodes in the open and closed lists.
+ * In the worst case, this could be all nodes. On a grid, this simplifies to O(N), where N is the total number of cells.
+ */
+
 public class AStarSearch {
 
     // Cost for moving horizontally or vertically

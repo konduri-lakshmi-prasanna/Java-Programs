@@ -1,3 +1,9 @@
+/**
+ * A Java implementation of a Red-Black Tree, a self-balancing binary search tree
+ * This class provides methods to insert nodes and automatically rebalances the tree
+ * to maintain efficient O(log n) time complexity for primary operations
+ */
+
 import java.util.Scanner;
 
 /**
@@ -66,20 +72,17 @@ public class RedBlackTree {
             if (parent == grandParent.left) {
                 Node uncle = grandParent.right;
 
-                // Case 1: Uncle is RED -> Recolor only
                 if (uncle != null && uncle.color == Color.RED) {
                     grandParent.color = Color.RED;
                     parent.color = Color.BLACK;
                     uncle.color = Color.BLACK;
                     node = grandParent;
                 } else {
-                    // Case 2: Uncle is BLACK (Triangle) -> Rotate parent
                     if (node == parent.right) {
                         rotateLeft(parent);
                         node = parent;
                         parent = node.parent;
                     }
-                    // Case 3: Uncle is BLACK (Line) -> Rotate grandparent & recolor
                     rotateRight(grandParent);
                     Color temp = parent.color;
                     parent.color = grandParent.color;
@@ -88,21 +91,17 @@ public class RedBlackTree {
                 }
             } else { // Case B: Parent is the RIGHT child (mirror of Case A)
                 Node uncle = grandParent.left;
-
-                // Case 1: Uncle is RED -> Recolor only
                 if (uncle != null && uncle.color == Color.RED) {
                     grandParent.color = Color.RED;
                     parent.color = Color.BLACK;
                     uncle.color = Color.BLACK;
                     node = grandParent;
                 } else {
-                    // Case 2: Uncle is BLACK (Triangle) -> Rotate parent
                     if (node == parent.left) {
                         rotateRight(parent);
                         node = parent;
                         parent = node.parent;
                     }
-                    // Case 3: Uncle is BLACK (Line) -> Rotate grandparent & recolor.
                     rotateLeft(grandParent);
                     Color temp = parent.color;
                     parent.color = grandParent.color;
@@ -111,36 +110,59 @@ public class RedBlackTree {
                 }
             }
         }
-        // The root must always be BLACK
         if (root != null) {
             root.color = Color.BLACK;
         }
     }
 
-    // Helper method to perform a left rotation
-    // Time Complexity: O(1)
+    /**
+     * Helper method to perform a left rotation
+     * Time Complexity: O(1)
+     */
     private void rotateLeft(Node node) {
         Node rightChild = node.right;
         node.right = rightChild.left;
-        if (rightChild.left != null) rightChild.left.parent = node;
+
+        if (rightChild.left != null) {
+            rightChild.left.parent = node;
+        }
+
         rightChild.parent = node.parent;
-        if (node.parent == null) root = rightChild;
-        else if (node == node.parent.left) node.parent.left = rightChild;
-        else node.parent.right = rightChild;
+
+        if (node.parent == null) {
+            this.root = rightChild;
+        } else if (node == node.parent.left) {
+            node.parent.left = rightChild;
+        } else {
+            node.parent.right = rightChild;
+        }
+
         rightChild.left = node;
         node.parent = rightChild;
     }
 
-    // Helper method to perform a right rotation
-    //  Time Complexity: O(1)
+    /**
+     * Helper method to perform a right rotation
+     * Time Complexity: O(1)
+     */
     private void rotateRight(Node node) {
         Node leftChild = node.left;
         node.left = leftChild.right;
-        if (leftChild.right != null) leftChild.right.parent = node;
+
+        if (leftChild.right != null) {
+            leftChild.right.parent = node;
+        }
+
         leftChild.parent = node.parent;
-        if (node.parent == null) root = leftChild;
-        else if (node == node.parent.right) node.parent.right = leftChild;
-        else node.parent.left = leftChild;
+
+        if (node.parent == null) {
+            this.root = leftChild;
+        } else if (node == node.parent.right) {
+            node.parent.right = leftChild;
+        } else {
+            node.parent.left = leftChild;
+        }
+        
         leftChild.right = node;
         node.parent = leftChild;
     }
@@ -148,7 +170,7 @@ public class RedBlackTree {
     // Utility method to print the tree in-order (sorted)
     public void inOrderTraversal() {
         inOrderHelper(this.root);
-        System.out.println(); // For a new line at the end
+        System.out.println();
     }
 
     private void inOrderHelper(Node node) {
@@ -160,34 +182,28 @@ public class RedBlackTree {
     }
 
     /**
-     * The main method handles user input and demonstrates the Red-Black Tree operations
+     * The main method handles user input and runs the program
      */
-
     public static void main(String[] args) {
-        // Step 1: Create an instance of the RedBlackTree
         RedBlackTree rbt = new RedBlackTree();
-        
-        // Step 2: Create a Scanner to read input
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter numbers to insert into the Red-Black Tree.");
         System.out.println("Type 'done' when you are finished.");
 
-        // Step 3: Loop to get input from the user.
         while (true) {
             System.out.print("Enter a number: ");
             String input = scanner.next();
 
             if (input.equalsIgnoreCase("done")) {
-                break; // Exit the loop if the user types 'done'
+                break;
             }
 
             try {
                 int number = Integer.parseInt(input);
-                // Step 4: Call the tree's insert method
                 rbt.insert(number);
-                System.out.print("Inserted " + number + ". Current tree (in-order): ");
-                rbt.inOrderTraversal(); // Show the sorted tree after each insertion
+                System.out.print("Current tree (in-order): ");
+                rbt.inOrderTraversal();
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a number or 'done'.");
             }

@@ -1,3 +1,17 @@
+/**
+ * Program Title: Dutch National Flag Sort
+ * Author: bmv126
+ * Date: 2025-10-13
+ *
+ * Description: Sorts an array containing only three distinct elements (0s, 1s, and 2s) in a single pass 
+ * using the Dutch National Flag algorithm.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
 import java.util.Arrays;
 
 public class DutchNationalFlag {

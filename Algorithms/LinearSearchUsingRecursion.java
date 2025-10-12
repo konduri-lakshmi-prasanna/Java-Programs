@@ -1,3 +1,16 @@
+/**
+ * Program Title: Linear Search (Recursive)
+ * Author: v-technoid
+ * Date: 2025-10-13
+ *
+ * Description: Searches for a target element in an array using a recursive linear search approach.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
+
 import java.io.*;
 import java.util.Scanner;
 

@@ -1,3 +1,17 @@
+/**
+ * Program Title: Iterative Binary Search
+ * Author: iceybubble
+ * Date: 2025-10-13
+ *
+ * Description: Implements the iterative version of the binary search algorithm to find efficiently 
+ * a target element in a sorted array.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
+
 public class BinarySearch {
     // Performs binary search on a sorted array
     public static int binarySearch(int[] arr, int key) {

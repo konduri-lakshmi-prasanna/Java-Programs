@@ -1,3 +1,17 @@
+/**
+ * Program Title: Kruskal's Algorithm for MST
+ * Author: Pranav-Ijantkar
+ * Date: 2025-10-13
+ *
+ * Description: Finds the Minimum Spanning Tree (MST) of a weighted, undirected graph 
+ * using Kruskal's greedy algorithm, optimized with Disjoint Set Union (DSU) by rank and path compression.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(E log E) or O(E log V)
+ * Space Complexity: O(V + E)
+ */
+
 import java.util.*;
 
 // Represents an edge in the graph

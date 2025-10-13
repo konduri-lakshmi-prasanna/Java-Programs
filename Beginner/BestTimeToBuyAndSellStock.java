@@ -1,5 +1,15 @@
-// File: BestTimeToBuyAndSellStock.java
-// Description: Implementation of the "Best Time to Buy and Sell Stock" algorithm (LeetCode #121)
+/**
+ * Program Title: Best Time to Buy and Sell Stock (Single Transaction)
+ * Author: Madipadige-ManishKumar
+ * Date: 2025-10-13
+ *
+ * Description: Finds the maximum profit from a single buy and sell transaction by tracking the minimum price seen so far.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 
 public class BestTimeToBuyAndSellStock {
 

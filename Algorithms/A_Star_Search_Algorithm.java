@@ -1,3 +1,17 @@
+/**
+ * Program Title: A-Star Search (A*) for 2D Grid
+ * Author: v-technoid
+ * Date: 2025-10-13
+ *
+ * Description: Implements the A* pathfinding algorithm to find the shortest path between two points 
+ * in a 2D grid with obstacles, utilizing the Manhattan distance as the heuristic (h-cost).
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(N log N) (where N is the number of cells/nodes)
+ * Space Complexity: O(N)
+ */
+
 import java.util.*;
 
 /**

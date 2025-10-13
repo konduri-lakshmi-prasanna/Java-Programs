@@ -1,3 +1,17 @@
+/**
+ * Program Title: DNA Sequence Analyzer
+ * Author: yukthi96
+ * Date: 2025-10-13
+ *
+ * Description: Performs a comprehensive analysis on a DNA sequence, including base composition, 
+ * GC content, reverse complement, transcription, and identifies Open Reading Frames (ORFs).
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
+
 import java.util.*;
 import java.util.stream.*;
 

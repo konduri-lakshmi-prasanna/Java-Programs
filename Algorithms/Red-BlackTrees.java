@@ -1,7 +1,15 @@
 /**
- * A Java implementation of a Red-Black Tree, a self-balancing binary search tree
- * This class provides methods to insert nodes and automatically rebalances the tree
- * to maintain efficient O(log n) time complexity for primary operations
+ * Program Title: Red-Black Tree (Insertion)
+ * Author: v-technoid
+ * Date: 2025-10-13
+ *
+ * Description: A self-balancing binary search tree implementation that supports O(log n) insertion 
+ * while maintaining balance using color-flipping and rotations.
+ *
+ * Language: Java
+ *
+ * Time Complexity: O(log n)
+ * Space Complexity: O(n)
  */
 
 import java.util.Scanner;

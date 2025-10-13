@@ -20,7 +20,7 @@ import java.util.*;
 public class FloydWarshall {
 
     // Define infinity as a large value
-    static final int INF = 99999;
+    static final int INF = (int) 1e9;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

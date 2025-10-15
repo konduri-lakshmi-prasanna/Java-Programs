@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
  * Author: [hirushi1999]
  * Date: 2025-10-14
  * Demonstrates how to use Java Streams to perform data analysis on a list of products.
+ * Time Complexity: O(n) (Linear time)
+ * Space Complexity: O(k) (Where k is the number of distinct categories)
  * Scenario:
  * - A store sells products in various categories (Fruits, Vegetables, Dairy, Meat).
  * - Each product has a price, quantity sold, and availability status.

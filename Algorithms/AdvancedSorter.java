@@ -108,9 +108,9 @@ public class AdvancedSorter {
             stepCount++;
         }
         swap(arr, low, --lt);
-        swap(arr, high, ++gt);
+        swap(arr, high, gt + 1);
         
-        return new int[]{lt, gt};
+        return new int[]{lt, gt + 1};
     }
     
     private static int partition(int[] arr, int low, int high) {

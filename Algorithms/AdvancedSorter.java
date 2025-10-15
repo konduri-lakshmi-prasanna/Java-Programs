@@ -1,3 +1,20 @@
+/**
+ * Program Title: Advanced Hybrid Sorter
+ * Author: yukthi96
+ * Date: 2025-10-16
+ *
+ * Description: Implements and compares three highly efficient, advanced sorting 
+ * algorithms used in production code.
+ *
+ * Language: Java
+ *
+ * Time Complexity (General): O(n log n)
+ * Worst Case: O(n log n) (IntroSort/TimSort), O(n^2) (Dual-Pivot Quicksort)
+ * Space Complexity: O(n) (TimSort/Merge), O(log n) (IntroSort/Dual-Pivot)
+ */
+
+Commit these two changes, and we can merge immediately! Thanks again! 🚀
+
 import java.util.*;
 import java.util.stream.*;
 
